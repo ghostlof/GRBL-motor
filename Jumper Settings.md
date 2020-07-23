@@ -16,3 +16,6 @@ Clone Z-axis to the 4th stepper driver (marked as A)
 
 ![A](https://github.com/ghostlof/GRBL-motor/blob/master/Images/clone%204.PNG)  
 Use D12 and D13 to drive the 4th stepper driver (marked as A)  
+
+# Reference
+http://www.zyltech.com/arduino-cnc-shield-instructions/
