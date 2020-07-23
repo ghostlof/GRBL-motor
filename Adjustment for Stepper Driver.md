@@ -6,8 +6,9 @@ Vref (Reference Voltage) is measured using a voltmeter between the ground of pow
 ![measure 2](https://github.com/ghostlof/GRBL-motor/blob/master/Images/Vref.PNG)  
 
 Vref = Imax /2 ;  
-Imax is the maximal current __for one phase only__. 
-Reference voltage is adjusted with a small screwdriver at the point indicated with the white arrow in the picture to the right. We suggest adjusting the reference voltage in small increments - no more than a quarter turn at a time.
+Imax is the maximal current __for one phase only__.  
+Reference voltage is adjusted with a small screwdriver at the point indicated with the white arrow in the picture to the right. We suggest adjusting the reference voltage in small increments - no more than a quarter turn at a time.  
+For our motor Imax is 2.8A/phase so Vref = 1.4V .  
 
 # Reference
 http://www.zyltech.com/arduino-cnc-shield-instructions/
