@@ -24,5 +24,6 @@ In this repository explanations will be given for Arduino UNO.
 ### Installation
 STEP 1 : Download and install Arduino Iddle,  
 STEP 2 : Download and unzip GRBL librarie,  
-STEP 3 : Connect the arduino shield to the arduino UNO,
-STEP 3 : Add the A4988 driver on the top of X, Y and/or Z support like here
+STEP 3 : Connect the arduino shield to the arduino UNO, ![connection](https://github.com/ghostlof/GRBL-motor/blob/master/Images/shield%20%2B%20arduino.jpg)   
+STEP 4 : Add the A4988 driver on the top of X, Y and/or Z support, ![here](https://github.com/ghostlof/GRBL-motor/blob/master/Images/cnc.png)  
+STEP 5 : 
