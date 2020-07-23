@@ -62,5 +62,5 @@ On est en full stepp car M0=M1=M2=LOW
 * https://www.lesimprimantes3d.fr/forum/topic/10459-pi%C3%A8ges-des-r%C3%A9glages-vref-a4988-ou-drv8825/
 
 
-		Python
-http://fablab37110.ovh/doku.php?id=start:cnc:grbl
+# Python
+* http://fablab37110.ovh/doku.php?id=start:cnc:grbl
