@@ -29,6 +29,21 @@ STEP 3 : Connect the arduino shield to the arduino UNO,
 STEP 4 : Add the A4988 driver on the top of X, Y and/or Z support   
 ![here](https://github.com/ghostlof/GRBL-motor/blob/master/Images/cnc.png),  
 STEP 5 : Branch motors, switch and power supply like ![here](https://github.com/ghostlof/GRBL-motor/blob/master/Images/connect_cnc.jpg)
-STEP 5 : A4988 stepper drivers need adjustment for reference voltage for that please read [this file](https://github.com/ghostlof/GRBL-motor/blob/master/Adjustment%20for%20Stepper%20Driver.md) correctly,  
-STEP 6 : 
+STEP 5 : A4988 stepper drivers need adjustment for reference voltage. For that please read [this file](https://github.com/ghostlof/GRBL-motor/blob/master/Adjustment%20for%20Stepper%20Driver.md) correctly,  
+STEP 6 : Configuring Micro Stepping for Each Axis. For that please read [this file](https://github.com/ghostlof/GRBL-motor/blob/master/Configuring%20Micro%20Stepping.md) correctly,  
+STEP 7 : Calculation of the number of steps/ turn :  
+          * For a motor : 1,8°/step ==> 360°/1,8 = 200steps/ turn,  
+          * Driver A4988 with M0 = M1 = HIGH and M3 = LOW (mode Eighth step)  
+          * Screw thread = 3mm  
+          
+          
+          
+
+# References
+* http://www.zyltech.com/arduino-cnc-shield-instructions/  
+* (French) http://lesporteslogiques.net/wiki/outil/cnc_colinbus-configuration  
+* https://github.com/gnea/grbl
+
+
+
 
