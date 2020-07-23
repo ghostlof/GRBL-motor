@@ -74,7 +74,9 @@ All setting are explain [here](https://github.com/gnea/grbl/wiki/Grbl-v1.1-Confi
 * If you have only one switch : *$20=1*. Added to *$130, $131 and $132* info this option will not engage axis motion if the setpoint is greater than the size of the axis.  
 * Put *$21=1* if you want to do homing cycle at the start-up, 
 * For *$120, $121 and $122* do not put hight value (your system will be lock),
-* For *$100, $101 and $102* write the value calculate during the step 7 in __Installation / Physical Configuration__, 
+* For *$100, $101 and $102* write the value calculate during the step 7 in __Installation / Physical Configuration__,  
+
+STEP 3 : Do a calibration.  
 
 Configuration for [Amazon axe](https://www.amazon.com/FUYU-Linear-Actuator-Motorized-Stepper/dp/B077Q8T6Y3) :
 $0=10  
