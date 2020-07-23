@@ -32,9 +32,9 @@ STEP 5 : Branch motors, switch and power supply like ![here](https://github.com/
 STEP 5 : A4988 stepper drivers need adjustment for reference voltage. For that please read [this file](https://github.com/ghostlof/GRBL-motor/blob/master/Adjustment%20for%20Stepper%20Driver.md) correctly,  
 STEP 6 : Configuring Micro Stepping for Each Axis. For that please read [this file](https://github.com/ghostlof/GRBL-motor/blob/master/Configuring%20Micro%20Stepping.md) correctly,  
 STEP 7 : Calculation of the number of steps/ turn :  
-          * For a motor : 1,8°/step ==> 360°/1,8 = 200steps/ turn,  
-          * Driver A4988 with M0 = M1 = HIGH and M3 = LOW (mode Eighth step)  
-          * Screw thread = 3mm  
+* For a motor : 1,8°/step ==> 360°/1,8 = 200steps/ turn,  
+* Driver A4988 with M0 = M1 = HIGH and M3 = LOW (mode Eighth step)  
+* Screw thread = 3mm  
           
           
           
