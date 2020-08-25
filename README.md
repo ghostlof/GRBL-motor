@@ -70,7 +70,7 @@ STEP 1 : Write *$$* (View Grbl settings),
 STEP 2 : Change the setting with *$x=* (x is the number of the parameter you want to change)  
 All setting are explain [here](https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration#grbl-settings).   
 * For *$5* it's possible to put 1 if your end switch is normaly open,
-* If you have to limited switch : *$21=1*,
+* If you have two limited switch : *$21=1*,
 * If you have only one switch : *$20=1*. Added to *$130, $131 and $132* info this option will not engage axis motion if the setpoint is greater than the size of the axis.  
 * Put *$21=1* if you want to do homing cycle at the start-up, 
 * For *$120, $121 and $122* do not put hight value (your system will be lock),
